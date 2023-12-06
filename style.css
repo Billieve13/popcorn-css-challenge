@@ -1,4 +1,29 @@
-/*COLORS:
+container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 60px 30px;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+header {
+  background-color: #FFDBAA;
+  color: #553100;
+}
+
+hr {
+  line-break: black;
+}
+
+button {
+  color: #805215;
+}
+
+body {
+  background-color: #D4A76A;
+}
+
+  /*COLORS:
 Header background - #FFDBAA
 button - #805215
 Header Text - #553100
